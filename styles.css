@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 html {
     background-color: #FFF5F0;
@@ -14,17 +15,17 @@ html {
     color: #F3E5E5;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .nav-links {
-    width: 70%;
+    width: 100%;
 }
-.nav-logo {
-    width: 30%;
+header img {
+    position: absolute;
+    left: 30px;
+    top: 5px;
 }
-.nav-logo img {
-    margin-left: 100px;
-}
+
 .nav-links ul {
     display: flex;
     list-style: none;
@@ -32,7 +33,20 @@ html {
 }
 #landing-section {
     height: 100vh;
-    background: url(./resources/main-page-house.jpg);
+    background: url(./resources/main-page-house.jpg) #000;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    color: white;
+    font-size: 3rem;
+    height: 100%;
+    font-weight: 100;
+}
+.landing-text h1 {
+    font-weight: 300;
+    margin-top: 100px;
 }
