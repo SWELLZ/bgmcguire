@@ -2,6 +2,7 @@
 COLORS:
 #BB1517 - light red
 #FFF5F0 - white
+#290404 - Dark Red
 */
 
 * {
@@ -129,4 +130,15 @@ header img {
 .portfolio-title p {
     font-size: 1.5rem;
     font-weight: 300;
+}
+.portfolio-images img {
+    width: 100%;
+    min-height: 100%;
+}
+.portfolio-images {
+    background-color: #290404;
+    max-width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
 }
