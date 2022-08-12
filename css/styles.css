@@ -44,7 +44,7 @@ header img {
 }
 #landing-section {
     height: 100vh;
-    background: url(./resources/main-page-house.jpg) #000;
+    background: url(../resources/main-page-house.jpg) #000;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -63,7 +63,6 @@ header img {
 .landing-text button {
     margin-top: 10px;
     background-color: transparent;
-    border-radius: 20px;
     color: #FFF5F0;
     border: 1px solid #FFF5F0;
     width: 150px;
@@ -78,7 +77,7 @@ header img {
     bottom: 10px;
 }
 .landing-text button:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: black;
     cursor: pointer;
 }
 .landing-text h1 {
