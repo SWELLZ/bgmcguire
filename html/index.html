@@ -10,6 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5aac4611fd.js" crossorigin="anonymous"></script>
+    <script>
+        function scrollToAbout(){
+            window.location.href = '#about-section';
+        }
+        function linkToAbout(){
+            window.location.href = './about.html';
+        }
+    </script>
     <title>BG McGuire</title>
 </head>
 <body>
@@ -31,7 +39,7 @@
                 <h1>Dream. Design. Build.</h1>
                 <p>It's really that simple</p>
                 <p class="landing-sub-text">- BG McGuire</p>
-                <button>About Us!</button>
+                <button onclick="scrollToAbout()">About Us!</button>
                 <i class="fa-solid fa-chevron-down"></i>
             </div>
         </section>
@@ -42,7 +50,7 @@
             <div class="about-text">
                 <h1>About Us</h1>
                 <p>B.G. McGuire Construction is a home contruction service who is equipped and experienced enough to handle anything you can dream of. You dream it, we make it!</p>
-                <button>Learn More</button>
+                <button onclick="linkToAbout()">Learn More</button>
             </div>
         </section>
         <section id="portfolio-section">
@@ -68,8 +76,8 @@
             </div>
             <div class="social-section">
                 <h3>Follow Us</h3>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/BGMCGUIRECON" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/bgmcguirecon/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
             <nav>
                 <li><a href="#">Home</a></li>
