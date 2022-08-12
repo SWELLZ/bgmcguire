@@ -147,6 +147,7 @@ header img {
     display: flex;
     justify-content: space-evenly;
     color: #FFF5F0;
+    height: 450px;
     width: 100%;
     background-image: linear-gradient(to left bottom, #290404, #240306, #1f0206, #180206, #100104, #100104, #100104, #100104, #180206, #1f0206, #240306, #290404);
 }
@@ -178,7 +179,7 @@ header img {
     width: 30%;
     position: absolute;
     list-style-type: none;
-    bottom: 20px;
+    bottom: 120px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -187,10 +188,11 @@ header img {
     text-decoration: none;
 }
 #copyright {
+    bottom: 0;
+    position: absolute;
     padding: 20px 0;
     color: #FFF5F0;
     width: 100%;
-    background-color: #290404;
     text-align: center;
 }
 #copyright p {
