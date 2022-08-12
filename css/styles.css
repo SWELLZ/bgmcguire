@@ -46,6 +46,7 @@ header img {
 #landing-section {
     height: 100vh;
     background: url(../resources/main-page-house.jpg) #000;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -77,6 +78,9 @@ header img {
     font-size: 40px;
     bottom: 10px;
 }
+.fa-chevron-down:hover {
+    cursor: pointer;
+}
 .landing-text button:hover {
     background-color: #290404;
     cursor: pointer;
@@ -85,6 +89,7 @@ header img {
     font-weight: 300;
     margin-top: 100px;
 }
+
 #about-section {
     display: flex;
     width: 100%;
@@ -201,4 +206,86 @@ header img {
 }
 #copyright a {
     color: #FFF5F0;
+}
+@media screen and (max-width: 850px){
+    .about-image {
+        width: 60%;
+    }
+    .about-text {
+        width: 40%;
+    }
+    .about-text h1 {
+        font-size: 2.5rem;
+    }
+    .about-text p {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .landing-text {
+        font-size: 2rem;
+    }
+    .landing-sub-text {
+        font-size: 1.5rem;
+    }
+    .name-section img {
+        width: 150px;
+    }
+    .name-section h1 {
+        font-size: 1rem;
+    }
+    .about-image {
+        width: 50%;
+    }
+    .about-text {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .landing-text {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .landing-sub-text {
+        font-size: 1rem;
+    }
+    .landing-text button {
+        margin: auto;
+    }
+    .about-image {
+        display: none;
+    }
+    .about-text {
+        width: 100%;
+        margin: auto;
+    }
+    .about-text h1 {
+        text-align: center;
+    }
+    .portfolio-images {
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 380px){
+    .landing-text button {
+        width: 120px;
+    }
+    .portfolio-title h1 {
+        font-size: 2rem;
+    }
+    .portfolio-title p {
+        font-size: 1rem;
+    }
+    .portfolio-images {
+        grid-template: repeat(4, 1fr) / 1fr;
+    }
+    #footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 20px;
+        gap: 20px;
+    }
+    #footer nav {
+        width: 100%;
+    }
 }
