@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    background-color: #FFF5F0;
+}
+#navbar {
+    background-color: #FFF5F0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    color: #290404;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-links {
+    width: 100%;
+}
+header img {
+    position: absolute;
+    left: 30px;
+    top: 5px;
+}
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.nav-links a {
+    color: #290404;
+    text-decoration: none;
+}
