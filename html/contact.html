@@ -6,8 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BG McGuire</title>
     <link rel="icon" href="../resources/logo-transparent.png"/>
+    <script src="https://kit.fontawesome.com/5aac4611fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/contactStyles.css" />
 </head>
 <body>
-    
+    <header>
+        <img alt="logo" src="../resources/logo-transparent.png" width="60px" />
+        <nav id="navbar">
+            <div class="nav-links">
+                <ul>
+                    <a href="./index.html"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Contact</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-form">
+            <div class="contact-image">
+                <div class="image-info">
+                    <div class="call">
+                        <i class="fa-solid fa-circle-phone"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-text">
+                <h1>Send us a Message!</h1>
+                <form>
+                    <label for="name" >Your Name:</label><br />
+                        <input id="name" name="name" type="text" />
+                        <br />
+                    <label for="email">Your Email:</label><br />
+                        <input id="email" name="email" type="email" />
+                        <br />
+                    <label for="phone">Your Phone:</label><br />
+                        <input id="phone" name="phone" type="phone" />
+                        <br />
+                    <label for="comments">Any Comments:</label><br />
+                        <textarea id="comments" name="comments"></textarea>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
