@@ -25,11 +25,14 @@ header img {
     left: 30px;
     top: 5px;
 }
-
 .nav-links ul {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
 }
 #landing-section {
     height: 100vh;
@@ -45,6 +48,29 @@ header img {
     font-size: 3rem;
     height: 100%;
     font-weight: 100;
+}
+.landing-sub-text {
+    font-size: 2.3rem;
+}
+.landing-text button {
+    background-color: transparent;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+    height: 50px;
+    transition: background-color 0.3s ease;
+}
+.landing-text i {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 40px;
+    bottom: 10px;
+}
+.landing-text button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
 }
 .landing-text h1 {
     font-weight: 300;
