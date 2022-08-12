@@ -109,6 +109,7 @@ header img {
 .contact-links {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     height: 200px;
 }
@@ -195,4 +196,52 @@ header img {
 }
 #copyright a {
     color: #FFF5F0;
+}
+@media screen and (max-width: 750px){
+    #contact-form {
+        flex-direction: column;
+        height: 900px;
+    }
+    .contact-image {
+        width: 100%;
+    }
+    .contact-text {
+        width: 100%;
+    }
+    .call i, .email i {
+        font-size: 2rem;
+    }
+    .call p, .email p {
+        font-size: 1rem;
+    }
+    .image-title h1 {
+        font-size: 1.2rem;
+    }
+    .image-title p {
+        font-size: 1.1rem;
+    }
+    #footer {
+        flex-direction: column;
+        padding: 0;
+        justify-content: flex-start;
+        padding-top: 30px;
+        gap: 30px;
+    }
+    .name-section img {
+        width: 150px;
+    }
+    .name-section h1 {
+        font-size: 1.2rem;
+    }
+    #footer nav {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 350px) {
+    .image-info {
+        padding: 50px 0;
+    }
+    .contact-text form input, .contact-text textarea {
+        width: 80%;
+    }
 }

@@ -49,16 +49,16 @@
                 <h1>Contact Us!</h1>
                 <form>
                     <label for="name" >Your Name:</label>
-                    <input placeholder="Name" id="name" name="name" type="text" />
+                    <input placeholder="Name" id="name" name="name" type="text" required/>
                     
                     <label for="email">Your Email:</label>
-                    <input placeholder="Email" id="email" name="email" type="email" />
+                    <input placeholder="Email" id="email" name="email" type="email" required/>
                     
                     <label for="phone">Your Phone:</label>
-                    <input placeholder="Phone" id="phone" name="phone" type="phone" />
+                    <input placeholder="Phone" id="phone" name="phone" type="tel" pattern="[0-9]{10}" required/>
                     
                     <label for="comments">Any Comments:</label>
-                    <textarea placeholder="Comments" id="comments" name="comments"></textarea>
+                    <textarea placeholder="Comments" id="comments" name="comments" required></textarea>
                     
                     <button type="submit">Submit</button>
                 </form>
