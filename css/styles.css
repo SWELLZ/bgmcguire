@@ -234,8 +234,26 @@ header img {
     }
 }
 @media screen and (max-width: 600px){
+    * {
+        scroll-margin-top: 70px;
+    }
+    .landing-text i {
+        z-index: 1;
+        margin: auto;
+        left: 47%;
+        right: auto;
+    }
     body {
         overflow-x: hidden;
+    }
+    #navbar {
+        position: fixed;
+        z-index: 999;
+        background-color: #290404;
+        align-items: center;
+    }
+    #navbar img {
+        margin: 0;
     }
     .nav-links {
         position: absolute;
@@ -243,10 +261,11 @@ header img {
         height: 92vh;
         width: 50%;
         top: 70px;
-        background-color: #000;
+        background-color: #290404;
         z-index: 999;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        padding-bottom: 100px;
     }
     .nav-links li {
         opacity: 0;
