@@ -57,7 +57,7 @@ header img {
 }
 #landing-section {
     height: 100vh;
-    background: url(../resources/main-page-house.jpg) #000;
+    background: url(./resources/main-page-house.jpg) #000;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
