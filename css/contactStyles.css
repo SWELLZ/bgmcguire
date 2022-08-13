@@ -17,6 +17,9 @@ html {
     align-items: center;
     justify-content: space-evenly;
 }
+header img {
+    margin-left: 30px;
+}
 .nav-links {
     width: 100%;
 }
@@ -190,6 +193,9 @@ html {
 }
 #copyright a {
     color: #FFF5F0;
+}
+.burger {
+    display: none;
 }
 .burger div {
     width: 25px;

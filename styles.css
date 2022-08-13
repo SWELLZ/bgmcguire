@@ -42,7 +42,7 @@ header img {
     justify-content: space-evenly;
 }
 .nav-links a {
-    color: #290404;
+    color: #FFF5F0;
     text-decoration: none;
 }
 .burger {
@@ -267,6 +267,9 @@ header img {
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
         padding-bottom: 100px;
+    }
+    .nav-links a {
+        color:#290404;
     }
     .nav-links li {
         opacity: 0;

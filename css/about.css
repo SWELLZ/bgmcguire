@@ -21,6 +21,7 @@ html {
     width: 100%;
 }
 header img {
+    margin-left: 30px;
     left: 30px;
     top: 5px;
 }
@@ -185,6 +186,9 @@ header img {
 }
 #copyright a {
     color: #FFF5F0;
+}
+.burger {
+    display: none;
 }
 .burger div {
     width: 25px;
