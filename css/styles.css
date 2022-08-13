@@ -28,13 +28,15 @@ html {
 }
 .nav-links {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 header img {
-    position: absolute;
-    left: 30px;
-    top: 5px;
+    margin-left: 30px;
 }
 .nav-links ul {
+    width: 80%;
     display: flex;
     list-style: none;
     justify-content: space-evenly;
@@ -42,6 +44,16 @@ header img {
 .nav-links a {
     color: #FFF5F0;
     text-decoration: none;
+}
+.burger {
+    display: none;
+}
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #FFF5F0;
+    margin: 5px;
+    transition: all 0.3s ease;
 }
 #landing-section {
     height: 100vh;
@@ -222,6 +234,33 @@ header img {
     }
 }
 @media screen and (max-width: 600px){
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0;
+        height: 92vh;
+        width: 50%;
+        top: 70px;
+        background-color: #000;
+        z-index: 999;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li {
+        opacity: 0;
+    }
+    .nav-links ul {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    }
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
     .landing-text {
         font-size: 2rem;
     }
@@ -288,4 +327,27 @@ header img {
     #footer nav {
         width: 100%;
     }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.toggle .line1{
+    transform: rotate(45deg) translate(-5px, 6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(-45deg) translate(-5px, -6px);
 }
