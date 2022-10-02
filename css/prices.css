@@ -178,5 +178,48 @@ header img {
     padding: 40px;
 }
 #cost-of-remodel {
-    padding: 40px;
+    padding: 0 40px 40px 40px;
+}
+.kitchen-price-guide {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    margin-top: 20px;
+}
+.price-container {
+    background-color: #e0d7d2;
+    min-width: 350px;
+    max-width: 500px;
+    width: 33%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.price-container h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+.price-levels {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.price-size {
+    background-color: #FFF5F0;
+    padding: 10px 20px;
+    text-align: center;
+}
+.included-services {
+    margin-left: 30px;
+    padding: 30px 0;
+}
+.included-services li {
+    list-style-position: inside;
+}
+.proj-size {
+    font-weight: bold;
 }
