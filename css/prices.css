@@ -180,7 +180,10 @@ header img {
 #cost-of-remodel {
     padding: 0 40px 40px 40px;
 }
-.kitchen-price-guide {
+h1 {
+    font-size: 2em;
+}
+.kitchen-price-guide, .bathroom-price-guide {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -200,6 +203,7 @@ header img {
 .price-container h2 {
     margin-top: 20px;
     text-align: center;
+    font-weight: 300;
 }
 .price-levels {
     width: 100%;
@@ -215,11 +219,12 @@ header img {
 }
 .included-services {
     margin-left: 30px;
-    padding: 30px 0;
-}
-.included-services li {
-    list-style-position: inside;
+    padding: 30px;
 }
 .proj-size {
     font-weight: bold;
+}
+.price-section-title {
+    text-align: center;
+    margin: 50px 0;
 }
