@@ -228,3 +228,39 @@ h1 {
     text-align: center;
     margin: 50px 0;
 }
+.step-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.seven-step-img {
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+.not-included-sect {
+    margin: 50px 0;
+}
+.not-included-sect li {
+    list-style-position: inside;
+}
+@media screen and (max-width: 550px){
+    .seven-step-img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 800px){
+    .badge {
+        width: 100px !important;
+    }
+    #footer {
+        flex-direction: column;
+        padding: 0;
+        justify-content: flex-start;
+        padding-top: 30px;
+        gap: 30px;
+    }
+    #footer nav {
+        width: 100%;
+    }
+}
