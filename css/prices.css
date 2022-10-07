@@ -244,6 +244,9 @@ h1 {
 .not-included-sect li {
     list-style-position: inside;
 }
+.contact-link {
+    color: #2c2728;
+}
 @media screen and (max-width: 550px){
     .seven-step-img {
         width: 100%;
@@ -293,6 +296,7 @@ h1 {
         gap: 20px;
     }
     .price-container {
+        padding: 15px;
         min-width: 0;
         width: 90%;
     }
