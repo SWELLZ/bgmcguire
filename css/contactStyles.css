@@ -253,6 +253,9 @@ header img {
         display: block;
         cursor: pointer;
     }
+    footer {
+        margin-top: 100px;
+    }
 }
 @media screen and (max-width: 750px){
     #contact-form {
